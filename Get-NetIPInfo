@@ -39,6 +39,6 @@ Select-Object -ExpandProperty ServerAddresses) -join ','
  
 }
 $result
-Out-File $result C:\IPINforForComputers.txt
-Write-Host Check the results at C:\IPINforForComputers.txt
+Out-File $result C:\IPINforForComputers.txt 
+Write-Host Check the results at C:\IPINforForComputers.txt -Encoding UTF8
 }
